@@ -1,7 +1,10 @@
 {
   "Post": {
     "title": {
-      "regexp": "[A-Z][a-z]{5,20}"
+      "string": [
+        "This is random title",
+        "Another title"
+      ]
     },
     "body": { "loremParagraphs": { "minLength": 200, "maxLength": 500} },
     "createdAt": {
