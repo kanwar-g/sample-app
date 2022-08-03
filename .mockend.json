@@ -1,46 +1,46 @@
 {
-  "Post": {
-    "title": {
-      "string": [
-        "5 Facts You Never Knew",
-        "5 Ugly Truth",
-        "7 Top Risks Of Owning an iPhone",
-        "15 Common Mistakes Everyone Makes",
-        "The Most Trending Thing Now",
-        "15 Doubts You Should Clarify",
-        "Seven Awesome Things"
-      ]
-    },
-    "body": { "loremParagraphs": { "minLength": 200, "maxLength": 500} },
-    "createdAt": {
-      "dateTime": {
-      "min": "2022-01-01T00:00:00Z",
-      "max": "2022-08-01T00:00:00Z"
+    "Post": {
+      "title": {
+        "string": [
+          "5 Facts You Never Knew",
+          "5 Ugly Truth",
+          "7 Top Risks Of Owning an iPhone",
+          "15 Common Mistakes Everyone Makes",
+          "The Most Trending Thing Now",
+          "15 Doubts You Should Clarify",
+          "Seven Awesome Things"
+        ]
+      },
+      "body": { "loremParagraphs": { "minLength": 200, "maxLength": 500} },
+      "createdAt": {
+        "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2022-08-01T00:00:00Z"
+        }
+      },
+      "firstName": {
+        "string": [
+          "Addison",
+          "Dawson",
+          "Aiden",
+          "Ainsley",
+          "Carmel",
+          "Alfie",
+          "Ali",
+          "Amory",
+          "Andie",
+          "Campbell",
+          "Denver",
+          "Indigo",
+          "Jean",
+          "Jordan"
+        ]
+      },
+      "avatar": {
+        "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+      },
+      "photo": {
+        "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
       }
-    },
-    "firstName": {
-      "string": [
-        "Addison",
-        "Dawson",
-        "Aiden",
-        "Ainsley",
-        "Carmel",
-        "Alfie",
-        "Ali",
-        "Amory",
-        "Andie",
-        "Campbell",
-        "Denver",
-        "Indigo",
-        "Jean",
-        "Jordan",
-      ]
-    },
-    "avatar": {
-      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-    },
-    "photo": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
     }
-  }
-}
+  }  
