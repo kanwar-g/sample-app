@@ -2,8 +2,13 @@
   "Post": {
     "title": {
       "string": [
-        "This is random title",
-        "Another title"
+        "5 Facts You Never Knew",
+        "5 Ugly Truth",
+        "7 Top Risks Of Owning an iPhone",
+        "15 Common Mistakes Everyone Makes",
+        "The Most Trending Thing Now",
+        "15 Doubts You Should Clarify",
+        "Seven Awesome Things"
       ]
     },
     "body": { "loremParagraphs": { "minLength": 200, "maxLength": 500} },
@@ -15,6 +20,12 @@
     },
     "firstName": {
       "regexp": "[A-Z][a-z]{5,10}"
-    }
+    },
+    "avatar": {
+    "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+  },
+  "photo": {
+    "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+  }
   }
 }
