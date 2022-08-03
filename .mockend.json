@@ -11,7 +11,7 @@
           "Seven Awesome Things"
         ]
       },
-      "body": { "loremParagraphs": { "minLength": 200, "maxLength": 500} },
+      "body": { "loremParagraphs": { "minLength": 200, "maxLength": 1000} },
       "createdAt": {
         "dateTime": {
         "min": "2022-01-01T00:00:00Z",
