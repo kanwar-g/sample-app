@@ -19,7 +19,22 @@
       }
     },
     "firstName": {
-      "regexp": "[A-Z][a-z]{5,10}"
+      "string": [
+        "Addison",
+        "Dawson",
+        "Aiden",
+        "Ainsley",
+        "Carmel",
+        "Alfie",
+        "Ali",
+        "Amory",
+        "Andie",
+        "Campbell",
+        "Denver",
+        "Indigo",
+        "Jean",
+        "Jordan",
+      ]
     },
     "avatar": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
